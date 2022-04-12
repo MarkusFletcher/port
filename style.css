@@ -12,3 +12,13 @@
 .dark-theme {
    background-color: var(--color-darkgray);
 }
+
+.container {
+   max-width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+a {
+   color: var(--color-lightgray);
+}
