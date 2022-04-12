@@ -1336,11 +1336,11 @@ body::before {
   background-repeat: no-repeat;
 }
 
-.footer__header {
+.footer__top {
   margin-bottom: 80px;
 }
 
-.footer__header-container {
+.footer__top-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

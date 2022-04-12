@@ -11,65 +11,67 @@
 
 <body>
 
-<header class="header">
-   <div class="header__container container">
-      <a class="header__logo logo" href="index.html">
-         <img class="logo__img" src="img/logo.svg" alt="Логотип сайта">
-      </a>
-      <div class="header__right">
-         <nav class="header__menu menu">
-            <button class="menu__btn"></button>
-            <ul class="menu__list">
-               <li class="menu__item"><a class="menu__link" href="index.html">Главная</a></li>
-               <li class="menu__item"><a class="menu__link" href="about.html">О нас</a></li>
-               <li class="menu__item"><a class="menu__link" href="contacts.html">Контакты</a></li>
-               <li class="menu__item"><a class="menu__link" href="search.html">Поиск</a></li>
+   <header class="header">
+      <div class="header__container container">
+         <a class="header__logo logo" href="index.html">
+            <img class="logo__img" src="img/logo.svg" alt="Логотип сайта">
+         </a>
+         <div class="header__right">
+            <nav class="header__menu menu">
+               <button class="menu__btn"></button>
+               <ul class="menu__list">
+                  <li class="menu__item"><a class="menu__link" href="index.html">Главная</a></li>
+                  <li class="menu__item"><a class="menu__link" href="category.html">Разделы</a></li>
+                  <li class="menu__item"><a class="menu__link" href="post.html">Пост</a></li>
+                  <li class="menu__item"><a class="menu__link" href="about.html">О нас</a></li>
+                  <li class="menu__item"><a class="menu__link" href="contacts.html">Контакты</a></li>
+                  <li class="menu__item"><a class="menu__link" href="search.html">Поиск</a></li>
+               </ul>
+            </nav>
+            <a href="tel:+79878878787" class="header__phone phone">+7 (987) 887-87-87</a>
+         </div>
+
+      </div>
+   </header>
+
+   <main class="main">
+      <section class="error">
+         <h1 class="visually-hidden">Страница не найдена</h1>
+         <div class="error__container container">
+            <img class="error__img" src="img/error.png" alt="" aria-hidden="true">
+            <h2 class="error__title">Что-то пошло не так...</h2>
+            <a href="" class="error__btn">
+               <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                     d="M0.413444 5.22558L5.03874 0.613083C5.19028 0.462049 5.43563 0.462303 5.58692 0.613865C5.73809 0.765407 5.7377 1.01089 5.58614 1.16205L1.23616 5.50002L5.58629 9.83797C5.73784 9.98914 5.73823 10.2345 5.58708 10.386C5.51124 10.462 5.41188 10.5 5.31253 10.5C5.21342 10.5 5.11446 10.4623 5.03876 10.3868L0.413444 5.77443C0.340456 5.70181 0.299499 5.60299 0.299499 5.50002C0.299499 5.39705 0.340573 5.29834 0.413444 5.22558Z"
+                     fill="#5D71DD" />
+               </svg>
+               <span>Вернуться назад</span>
+            </a>
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer">
+      <div class="footer__container container">
+         <a class="footer__logo logo" href="index.html">
+            <img class="logo__img" src="img/logo.svg" alt="">
+         </a>
+         <nav class="footer__menu menu">
+            <ul class="footer__list menu__list">
+               <li class="menu__item menu__item_f"><a class="menu__link" href="">О нас</a></li>
+               <li class="menu__item menu__item_f"><a class="menu__link" href="">Галерея</a></li>
+               <li class="menu__item menu__item_f"><a class="menu__link" href="">Новости</a></li>
+               <li class="menu__item menu__item_f"><a class="menu__link" href="">Контакты</a></li>
             </ul>
          </nav>
-         <a href="tel:+79878878787" class="header__phone phone">+7 (987) 887-87-87</a>
+         <p class="footer__copy">ООО “Организация” 2020. Все права защищены</p>
       </div>
-
+   </footer>
+   <div id="preloader" class="preloader">
+      <img class="preloader__img" src="blocks/preloader/preloader.svg" alt="">
    </div>
-</header>
-
-<main class="main">
-   <section class="error">
-      <h1 class="visually-hidden">Страница не найдена</h1>
-      <div class="error__container container">
-         <img class="error__img" src="img/error.png" alt="" aria-hidden="true">
-         <h2 class="error__title">Что-то пошло не так...</h2>
-         <a href="" class="error__btn">
-            <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-               <path
-                  d="M0.413444 5.22558L5.03874 0.613083C5.19028 0.462049 5.43563 0.462303 5.58692 0.613865C5.73809 0.765407 5.7377 1.01089 5.58614 1.16205L1.23616 5.50002L5.58629 9.83797C5.73784 9.98914 5.73823 10.2345 5.58708 10.386C5.51124 10.462 5.41188 10.5 5.31253 10.5C5.21342 10.5 5.11446 10.4623 5.03876 10.3868L0.413444 5.77443C0.340456 5.70181 0.299499 5.60299 0.299499 5.50002C0.299499 5.39705 0.340573 5.29834 0.413444 5.22558Z"
-                  fill="#5D71DD" />
-            </svg>
-            <span>Вернуться назад</span>
-         </a>
-      </div>
-   </section>
-</main>
-
-<footer class="footer">
-   <div class="footer__container container">
-      <a class="footer__logo logo" href="index.html">
-         <img class="logo__img" src="img/logo.svg" alt="">
-      </a>
-      <nav class="footer__menu menu">
-         <ul class="footer__list menu__list">
-            <li class="menu__item menu__item_f"><a class="menu__link" href="">О нас</a></li>
-            <li class="menu__item menu__item_f"><a class="menu__link" href="">Галерея</a></li>
-            <li class="menu__item menu__item_f"><a class="menu__link" href="">Новости</a></li>
-            <li class="menu__item menu__item_f"><a class="menu__link" href="">Контакты</a></li>
-         </ul>
-      </nav>
-      <p class="footer__copy">ООО “Организация” 2020. Все права защищены</p>
-   </div>
-</footer>
-<div id="preloader" class="preloader">
-   <img class="preloader__img" src="blocks/preloader/preloader.svg" alt="">
-</div>
-<script src="js/script.min.js"></script>
+   <script src="js/script.min.js"></script>
 </body>
 
 </html>
