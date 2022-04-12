@@ -1,0 +1,14 @@
+*,*::before,*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --color-darkgray: hsl(222, 15%, 13%);
+   --color-lightgray: hsl(222, 15%, 76%);
+}
+
+.dark-theme {
+   background-color: var(--color-darkgray);
+}
